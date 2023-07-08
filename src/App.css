@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(11, 18, 43);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.banner__text h3{
+  font-size: 40px;
+  position: absolute;
+  top: 200px;
+  right: 1000px;
+  color: cyan;
+  overflow-wrap: break-word;
+  font-weight: 10000;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.NavBar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1200px;
+  color:white;
+}
+.navbar_text{
+  height: 10px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  right: 980px;
+}
+.logo{
+  width:500px;
+}
+.navbar_ul{
+   display: flex;
+   justify-content: flex-end;
+   color: white;
+   list-style-type: none;
+   
+}
+.navbar_ul li a{
+  text-decoration: none;
   color: white;
+  padding: 0 15px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0px auto;
+}
+.logo{
+  width: 100px;
+  height: 0%;
+}
+.logo img{
+  width:70px
+
 }
 
-.App-link {
-  color: #61dafb;
+.btn_smart{
+  background: rgb(216, 34, 34);
+  color: white;
+  cursor: pointer;
+  border-radius: 500px;
+  font-size: 20px;
+  padding: 25px;
+  text-decoration: none;
+  font-weight: bolder;
+  position: relative;
+  top: 300px;
+  left: 120px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header{
+  color:white;
+  position: relative;
+  
+  
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+.banner__text{
+  margin-left: 50px;
+margin-right: 50px;
 }

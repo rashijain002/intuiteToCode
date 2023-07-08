@@ -1,0 +1,16 @@
+.aboutstyle{
+    font-size: 40px;
+    color: cyan;
+}
+.para{
+    font-size: 22px;
+    color:white;
+   
+    display: flex;
+}
+.AboutIMage{
+    float: right;
+    position: relative;
+    top: -370px;
+    right: 56px;
+}
